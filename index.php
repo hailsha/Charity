@@ -26,6 +26,7 @@
     $treePercent = round(($treesTotal/$treesGoal), 3);
     $childrenPercent = round(($childrenTotal/$childrenGoal), 3);
     $studentsPercent = round(($studentsTotal/$studentsGoal), 3);
+    echo $childrenTotal." ".$childrenGoal." ".$childrenTarget." ".$childrenPercent."<br>";
     // $percent = round(ceil($total/$goal),3);
     // echo $treesTotal." ".$childrenTotal." ".$studentsTotal." ".$total."<br>";
     if (isset($_POST['donate'])) {
