@@ -92,10 +92,10 @@
         {
             scroll-behavior: smooth !important;
         }
-        .header{
+/*         .header{
             position: fixed;
             top: 0;
-        }
+        } */
     </style>
 </head>
 
