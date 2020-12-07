@@ -173,7 +173,7 @@
                         <div class="progress-text">
                             <p class="progress-top"><?php echo $percent;?>%</p>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:50%"></div>
+                                <div class="progress-bar" role="progressbar" aria-valuenow="<?php echo $percent;?>" aria-valuemin="0" aria-valuemax="100" style="width:<?php echo $percent;?>%"></div>
                             </div>
                             <p class="progress-left">Raised: <?php echo $total;?></p>
                             <p class="progress-right">Goal: <?php echo $goal;?></p>
