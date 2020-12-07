@@ -112,7 +112,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-5 col-sm-12 col-xs-12">
-                            <a href="#">
+                            <a href="/">
                                 <div class="main-logo">
                                     <img src="img/GoodHeartsLogo.svg" alt="" width="60" height="60">
                                     <h2>Good Hearts</h2>
