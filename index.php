@@ -22,10 +22,10 @@
 
     $total = $treesTotal + $childrenTotal + $studentsTotal;
     $goal = ($total < $totalTarget) ? $totalTarget : ($totalTarget + 10000);
-    $percent = round(($total/$goal), 3);
-    $treePercent = round(($treesTotal/$treesGoal), 3);
-    $childrenPercent = round(($childrenTotal/$childrenGoal), 3);
-    $studentsPercent = round(($studentsTotal/$studentsGoal), 3);
+    $percent = round(($total/$goal), 3)*100;
+    $treePercent = round(($treesTotal/$treesGoal), 3)*100;
+    $childrenPercent = round(($childrenTotal/$childrenGoal), 3)*100;
+    $studentsPercent = round(($studentsTotal/$studentsGoal), 3)*100;
     echo $childrenTotal." ".$childrenGoal." ".$childrenTarget." ".$childrenPercent."<br>";
     // $percent = round(ceil($total/$goal),3);
     // echo $treesTotal." ".$childrenTotal." ".$studentsTotal." ".$total."<br>";
