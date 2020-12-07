@@ -201,7 +201,7 @@
                                     <div class="progress-text">
                                         <p class="progress-top"><?php echo $treePercent;?>%</p>
                                         <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%"></div>
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="<?php echo $treePercent;?>" aria-valuemin="0" aria-valuemax="100" style="width:50%"></div>
                                         </div>
                                         <p class="progress-left">Raised: <span>ETB <?php echo $treesTotal;?></span></p>
                                         <p class="progress-right">Goal: <span>ETB <?php echo $treesGoal;?></span></p>
