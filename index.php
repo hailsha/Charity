@@ -136,7 +136,7 @@
                         <div class="client owl-carousel owl-theme">
                             <div class="item">
                                 <div class="text">
-                                    <h3>LETS COMTRIBUTE FOR OUR ENVIRONMENT</h3>
+                                    <h3>LETS CONTRIBUTE FOR OUR ENVIRONMENT</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <br> ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
                                     <h5 class="white-button"><a href="#donate">DONATE NOW</a></h5>
                                     <h5><a href="javascript:void(0);">CONTACT US</a></h5>
@@ -144,7 +144,7 @@
                             </div>
                             <div class="item">
                                 <div class="text">
-                                    <h3>LETS COMTRIBUTE FOR OUR CHILDREN</h3>
+                                    <h3>LETS CONTRIBUTE FOR OUR CHILDREN</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <br> ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
                                     <h5 class="white-button"><a href="#donate">DONATE NOW</a></h5>
                                     <h5><a href="javascript:void(0);">CONTACT US</a></h5>
@@ -152,7 +152,7 @@
                             </div>
                             <div class="item">
                                 <div class="text">
-                                    <h3>LETS COMTRIBUTE FOR OUR STUDENTS</h3>
+                                    <h3>LETS CONTRIBUTE FOR OUR STUDENTS</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <br> ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
                                     <h5 class="white-button"><a href="#donate">DONATE NOW</a></h5>
                                     <h5><a href="javascript:void(0);">CONTACT US</a></h5>
