@@ -42,3 +42,17 @@ create table if not exists invoices(
   created_at timestamptz default CURRENT_TIMESTAMP,
   updated_at timestamptz default CURRENT_TIMESTAMP
 );
+--- Person to keep track of personal data
+create table if not exists people(
+  id serial primary key,
+  full_name varchar(500) not null unique,
+  background text,
+  contact_info text
+);
+--- Beneficiary is a person who will be benefited from a given donation
+create table if not exists beneficiaries(
+  donation_id integer not null,
+  person_id integer not null,
+  amount DECIMAL(10,2) not null default 0.00,
+  constraint unique_person_per_donation unique(donation_id,person_id)
+);
