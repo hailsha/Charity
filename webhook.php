@@ -20,6 +20,7 @@
     } 
     elseif ($request_method === "POST") {
       $incoming = explode("=", file_get_contents("php://input"));
+      file_put_contents("webhookresponse.log", print_r($incoming, true));
       foreach ($incoming as $key => $value) {
         $line = $key . " : " . $value;
         $data[$key] = $value;
