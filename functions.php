@@ -89,7 +89,7 @@
         $url = "https://api.hellocash.net/invoices";
         $request_transaction = sendRequest('POST', $url, json_encode($transaction_data),$token);
         $request_response = json_decode($request_transaction, true);
-
+	file_put_contents("invoice.log", $request_response);
 
         if(isset($request_response['id'])) {
             $array = array();
