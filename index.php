@@ -1,8 +1,8 @@
 <?php
     include 'functions.php';
     $credentials =  array(
-        "principal" => "1807605",
-        "credentials" => "kidan123@",
+        "principal" => "+251921601266",
+        "credentials" => "online@3020",
         "system" => "lucy"     
     );
     $country_codes = array(
