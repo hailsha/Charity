@@ -3,7 +3,8 @@
     $today = date("Y-m-d");
     $timestamp = date("Y-m-d H:i:s");
     $file_name = dirname(__FILE__) . "/" . $request_method . "_" . "WebHookEvent_" . $today . ".log";
-    
+    $file_namewebhook = dirname(__FILE__) . "/" . $request_method . "_" . "webhookresponse_" . $today . ".log";
+
     $data = array();
     $data["time_stamp"] = $timestamp;
     
@@ -20,7 +21,7 @@
     } 
     elseif ($request_method === "POST") {
       $incoming = explode("=", file_get_contents("php://input"));
-      file_put_contents("webhookresponse.log", print_r($incoming, true));
+      file_put_contents($file_namewebhook, print_r($incoming, true));
       foreach ($incoming as $key => $value) {
         $line = $key . " : " . $value;
         $data[$key] = $value;
